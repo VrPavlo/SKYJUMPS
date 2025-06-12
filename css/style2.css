@@ -6,7 +6,7 @@ body  {
 *{
 	box-sizing: border-box;
 }
-
+@media (max-width: 768px) { .container { width: 100%; } .box { width: 100%; } }
 /*.............MENU.........*/
 
 
