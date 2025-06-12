@@ -242,6 +242,11 @@ img.premier {
   display: flex;
 
 }
+.Prix img {
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+}
 
 .Prix li {
   margin: 10px;
@@ -263,6 +268,11 @@ img.premier {
 
 /*---------------- CONTACT ----------------*/
 
+.boxCONTMENU img{
+  width: 50%;
+  height: auto;
+
+}
 .boxCONTMENU {
   background-color: #a8d0f2;
   display: flex;
