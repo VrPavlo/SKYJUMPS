@@ -1,11 +1,11 @@
-/* Обнуление и базовая настройка */
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  background-color: #fff;
+  background-color: #bfe9ed;
   margin: 0;
   font-size: 22px;
 }
@@ -14,12 +14,20 @@ img {
   max-width: 100%;
   display: block;
 }
-
+@media (max-width: 768px) { .container { width: 100%; } .box { width: 100%; } }
 /*---------------- HEADER ----------------*/
+.conteneur {
+  width: 90%; 
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px;
 
-.banner {
-  margin: 0;
-  padding: 0;
+}
+#menu img {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+
 }
 
 .cloud {
@@ -106,7 +114,7 @@ img {
 /*---------------- CONTENT ----------------*/
 
 #content {
-  background-color: #dbeeee;
+  background-color:#bfe9ed;
   padding: 20px;
 }
 
