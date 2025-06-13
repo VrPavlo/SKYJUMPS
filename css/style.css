@@ -14,7 +14,9 @@ img {
   max-width: 100%;
   display: block;
 }
-@media (max-width: 768px) { .container { width: 100%; } .box { width: 100%; } }
+@media (max-width: 768px)
+ { .conteneur { width: 100%; }
+     .content { width: 100%; } }
 /*---------------- HEADER ----------------*/
 .conteneur {
   width: 90%; 
