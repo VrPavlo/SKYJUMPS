@@ -6,7 +6,14 @@ body  {
 *{
 	box-sizing: border-box;
 }
-@media (max-width: 768px) { .container { width: 100%; } .box { width: 100%; } }
+@media (max-width: 768px)
+ { 
+.container { width: 100%; } 
+.boxF { width: 100%; } 
+.boxCONTMENU { width: 100%; }
+.footer { width: 100%; }
+}
+
 /*.............MENU.........*/
 
 
@@ -93,10 +100,14 @@ body  {
 	
 }
 .boxCONTMENU li {
-	
+  flex: 1;
 	margin: 20px;
 	display: inline;
 	
+}
+.boxCONTMENU img {
+ width: 20%;
+
 }
 
 
